@@ -1,0 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Shantell+Sans:ital,wght@0,600;0,700;1,500&display=swap");
+
+.main-logo {
+    display: inline-block;
+    font-size: 3.6rem;
+    text-transform: capitalize;
+    color: #ffff;
+    font-weight: 700;
+    font-family: "Shantell Sans", cursive;
+}
+.fire-color {
+    color: #e64e04;
+}
