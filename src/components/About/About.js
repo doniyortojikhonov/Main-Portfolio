@@ -12,7 +12,7 @@ import { SectionHeading, SectionTitle } from "../styles/SectionHeading";
 import { StyledParagraph } from "../styles/Typography.styled";
 import myImage from "../../assets/my-image.jpg";
 import downloadIcon from "../../assets/icons/download-icon.svg";
-import resume from "../../assets/resume.pdf";
+import resume from "../../assets/cv.pdf";
 
 const About = () => {
     return (
@@ -38,10 +38,10 @@ const About = () => {
                     </StyledParagraph>
                     <StyledParagraph>
                         My skills include HTML, CSS, JavaScript, and a range of
-                        frontend frameworks such as Bootstrap, ReactJS, and
-                        Tailwind. I am constantly exploring new technologies and
-                        techniques to improve my craft and deliver high-quality
-                        websites that meet client needs.
+                        frontend frameworks and libraries such as ReactJS,
+                        Bootstrap and Tailwind. I am constantly exploring new
+                        technologies and techniques to improve my craft and
+                        deliver high-quality websites that meet client needs.
                     </StyledParagraph>
                     <StyledParagraph>
                         If you have a project in mind or would like to learn
@@ -54,7 +54,7 @@ const About = () => {
                         <ResumeLink
                             href={resume}
                             icon={downloadIcon}
-                            download="resume-doniyor-tojikhonov"
+                            download="cv-doniyor-tojikhonov"
                         >
                             Download Resume
                         </ResumeLink>
