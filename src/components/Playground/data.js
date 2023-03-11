@@ -1,8 +1,8 @@
-import project1 from "../../assets/playground/project-1.png";
-import project2 from "../../assets/playground/project-2.png";
+import project1 from "../../assets/playground/project-1.jpg";
+import project2 from "../../assets/playground/project-2.jpg";
 import countdown from "../../assets/playground/countdown.png";
-import project3 from "../../assets/playground/project-3.png";
-import project4 from "../../assets/playground/project-4.png";
+import project3 from "../../assets/playground/project-3.jpg";
+import project4 from "../../assets/playground/project-4.jpg";
 import project5 from "../../assets/playground/project-5.png";
 
 export const projectsData = [
@@ -22,11 +22,12 @@ export const projectsData = [
     },
     {
         id: 3,
-        projectName: "New Year Countdown",
-        hasLink: false,
-        liveLink: "",
-        img: countdown,
+        projectName: "Vanilla JavaScript Basic Projects",
+        hasLink: true,
+        liveLink: "https://javascript-basic-projects-website.netlify.app/",
+        img: project5,
     },
+
     {
         id: 4,
         projectName: "Responsive Hospital Website",
@@ -43,9 +44,9 @@ export const projectsData = [
     },
     {
         id: 6,
-        projectName: "API Home Furniture Project",
-        hasLink: true,
-        liveLink: "https://javascript-basic-projects-20-products.netlify.app/",
-        img: project5,
+        projectName: "New Year Countdown",
+        hasLink: false,
+        liveLink: "",
+        img: countdown,
     },
 ];
